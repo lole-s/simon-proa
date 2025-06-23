@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+  color: white;
+  font-family: sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.btn {
+  height: 145px;
+  width: 145px;
+  margin: 10px;
+  border-radius: 20%;
+  display: inline-block;
+}
+.green { background-color: green; }
+.red { background-color: red; }
+.yellow { background-color: yellow; }
+.blue { background-color: blue; }
