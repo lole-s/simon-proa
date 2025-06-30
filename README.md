@@ -27,11 +27,14 @@ Bienvenidos al proyecto grupal de programación y control de versiones. En esta 
 ### 1. Clonar el repositorio desde VSC
 
 1. Abrí Visual Studio Code.
-2. Usá el atajo `Ctrl + Shift + P` para abrir la paleta de comandos.
-3. Escribí `Git: Clone` y seleccioná la opción.
-4. Pegá la URL del repositorio compartido: https://github.com/lole-s/simon-proa.git
-5. Elegí una carpeta donde guardarlo, preferentemente `c:\temp2025\testing\`
-6. Abrí el proyecto si VSC te lo ofrece.
+2. Abrí la terminal integrada con ``Ctrl + ñ`` o desde el menú `Ver` → `Terminal`.
+3. Seleccioná la terminal de tipo **Git Bash** (si no aparece, elegila desde la flecha desplegable).
+4. Escribí el siguiente comando y presioná `Enter`:
+    ```bash
+    git clone https://github.com/lole-s/simon-proa.git c:/temp2025/testing/simon-proa
+    ```
+5. En Visual Studio Code, hacé clic en `Archivo` → `Abrir carpeta...`.
+6. Buscá y seleccioná la carpeta `c:/temp2025/testing/simon-proa` para abrir el proyecto.
 
 ---
 
