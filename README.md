@@ -1,6 +1,6 @@
-# 🎮 Proyecto Colaborativo: Simon Game - Edición Clase
+# 🎮 Proyecto Colaborativo: Simon Proa
 
-Bienvenidos al proyecto grupal de programación y control de versiones. En esta actividad vamos a modificar juntos un juego clásico: **Simon Game**, usando **Visual Studio Code + Git + GitHub**.
+Bienvenidos al proyecto grupal de programación y control de versiones. En esta actividad vamos a modificar juntos un juego clásico: **Simon Dice**, usando **Visual Studio Code + Git + GitHub**.
 
 ---
 
