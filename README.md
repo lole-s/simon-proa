@@ -19,7 +19,6 @@ Bienvenidos al proyecto grupal de programación y control de versiones. En esta 
 ✅ Tener cuenta en **GitHub**  
 ✅ Haber aceptado la invitación como **colaborador/a** del repositorio  
 ✅ Tener instalado **Git** en la computadora  
-✅ Tener conexión a Internet
 
 ---
 
@@ -30,7 +29,7 @@ Bienvenidos al proyecto grupal de programación y control de versiones. En esta 
 1. Abrí Visual Studio Code.
 2. Usá el atajo `Ctrl + Shift + P` para abrir la paleta de comandos.
 3. Escribí `Git: Clone` y seleccioná la opción.
-4. Pegá la URL del repositorio compartido (te la dará el profesor).
+4. Pegá la URL del repositorio compartido: https://github.com/lole-s/simon-proa.git
 5. Elegí una carpeta donde guardarlo, preferentemente `c:\temp2025\testing\`
 6. Abrí el proyecto si VSC te lo ofrece.
 
