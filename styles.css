@@ -1,43 +1,50 @@
+/* Estilos generales para el cuerpo de la página */
 body {
-  background-color: #011F3F;
-  color: white;
-  text-align: center;
-  font-family: sans-serif;
+  background-color: #011F3F; /* Fondo azul oscuro */
+  color: white;              /* Texto en blanco */
+  text-align: center;        /* Centra el texto */
+  font-family: sans-serif;   /* Fuente sin serifas */
   margin: 0;
   padding: 0;
 }
 
+/* Espaciado superior para el título principal */
 h1 {
   margin-top: 40px;
 }
 
+/* Contenedor principal para los botones del juego */
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+  display: flex;                 /* Usa flexbox para organizar los elementos */
+  justify-content: center;       /* Centra horizontalmente */
+  align-items: center;           /* Centra verticalmente */
+  gap: 20px;                     /* Espacio entre los botones */
   margin-top: 60px;
 }
 
+/* Estilos base para los botones de colores */
 .btn {
   width: 100px;
   height: 100px;
-  border-radius: 15px;
-  cursor: pointer;
-  box-shadow: 0 5px 10px #00000055;
-  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  border-radius: 15px;           /* Bordes redondeados */
+  cursor: pointer;               /* Cambia el cursor al pasar por encima */
+  box-shadow: 0 5px 10px #00000055; /* Sombra para dar profundidad */
+  transition: transform 0.1s ease, box-shadow 0.1s ease; /* Animaciones suaves */
 }
 
+/* Colores específicos para cada botón */
 .green { background-color: green; }
 .red { background-color: red; }
 .yellow { background-color: yellow; }
 .blue { background-color: blue; }
 
+/* Efecto cuando el botón es presionado */
 .pressed {
-  transform: scale(0.95);
-  box-shadow: 0 0 20px white;
+  transform: scale(0.95);        /* Reduce ligeramente el tamaño */
+  box-shadow: 0 0 20px white;    /* Sombra blanca alrededor */
 }
 
+/* Estilo para indicar que el juego terminó */
 .game-over {
-  background-color: #a30000;
+  background-color: #a30000;     /* Fondo rojo oscuro */
 }
