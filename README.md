@@ -45,16 +45,21 @@ Bienvenidos al proyecto grupal de programación y control de versiones. En esta 
 ## 🛠️ Tareas asignadas
 
 Cada estudiante deberá modificar una parte específica del juego. Estas tareas están pensadas para no pisarse entre sí:
-
-| Estudiante | Archivo a modificar | Tarea asignada |
-|-----------|---------------------|----------------|
-| Alumno 1  | `styles.css`        | Cambiar colores de fondo y botones |
-| Alumno 2  | `index.html`        | Agregar un título personalizado |
-| Alumno 3  | `game.js`           | Cambiar sonidos del juego |
-| Alumno 4  | `styles.css`        | Agregar un efecto de sombra al presionar botones |
-| Alumno 5  | `index.html`        | Agregar sección "Créditos" con nombres del grupo |
-| Alumno 6  | `game.js`           | Modificar la secuencia para que inicie con 2 colores en vez de 1 |
-| Alumno 7+ | Coordinación con el profesor para nuevas tareas personalizadas |
+| Estudiante     | Archivo a modificar | Tarea asignada |
+|---------------|---------------------|----------------|
+| Juan Martín   | `styles.css`        | Cambiar colores de fondo y botones |
+| Joaquín       | `index.html`        | Agregar un título personalizado |
+| Jazmín        | `game.js`           | Cambiar sonidos del juego |
+| Jammin        | `styles.css`        | Agregar un efecto de sombra al presionar botones |
+| Juan José     | `index.html`        | Agregar sección "Créditos" con nombres del grupo |
+| Benjamín      | `game.js`           | Modificar la secuencia para que inicie con 2 colores en vez de 1 |
+| Lorenzo       | `styles.css`        | Cambiar el tipo de fuente del juego |
+| Lao           | `index.html`        | Agregar un favicon personalizado |
+| Víctor        | `game.js`           | Mostrar el nivel actual en el título de la página |
+| Alvaro        | `styles.css`        | Redondear los botones para que queden 2 arriba y 2 abajo|
+| Milena        | `index.html`        | Agregar instrucciones breves para jugar |
+| Ivan          | `game.js`           | Mostrar un mensaje de bienvenida al iniciar el juego |
+| Ciro          | `styles.css`        | Cambiar el color del texto del nivel y mensajes |
 
 ⚠️ Si más de un estudiante modifica el mismo archivo, se deben coordinar los cambios y **hacer `pull` antes de hacer `push`**.
 
@@ -64,11 +69,12 @@ Cada estudiante deberá modificar una parte específica del juego. Estas tareas 
 
 1. Realizá tus modificaciones locales.
 2. Guardá los cambios (`Ctrl + S`).
-3. Abrí la sección de control de código fuente en VSC (ícono de Git).
-4. Escribí un mensaje de commit claro (ej: `Agrego créditos al juego`).
-5. Hacé clic en el ✔️ para confirmar.
-6. Hacé `Push` para subir tus cambios a GitHub.
-7. Antes de seguir trabajando, hacé `Pull` para traer los cambios de tus compañeros.
+3. Probá el juego localmente con un navegador. 
+4. Abrí la sección de control de código fuente en VSC (ícono de Git).
+5. Escribí un mensaje de commit claro (ej: `Agrego créditos al juego`).
+6. Hacé clic en el ✔️ para confirmar.
+7. Hacé `Push` para subir tus cambios a GitHub.
+8. Antes de seguir trabajando, hacé `Pull` para traer los cambios de tus compañeros.
 
 ---
 
@@ -87,7 +93,7 @@ El resultado será una versión modificada y personalizada del juego Simon, hech
 
 ---
 
-## 🧠 ¿Qué aprendimos?
+## ¿Qué aprendimos?
 
 - A clonar, modificar y sincronizar un proyecto desde VSC.
 - A colaborar en equipo con Git y GitHub.
@@ -95,4 +101,4 @@ El resultado será una versión modificada y personalizada del juego Simon, hech
 
 ---
 
-¡Felicitaciones por trabajar en equipo como verdaderos programadores/as! 🚀
+

@@ -33,12 +33,22 @@ function nextSequence() {
   var randomNumber = Math.floor(Math.random() * 4);
   var randomChosenColour = buttonColours[randomNumber];
   gamePattern.push(randomChosenColour);
-
-  $("#" + randomChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
-  playSound(randomChosenColour);
+  showSequence();
 }
 
-// Verificar la respuesta del usuario
+function showSequence() {
+  let i = 0;
+  const interval = setInterval(() => {
+    var currentColour = gamePattern[i];
+    $("#" + currentColour).fadeIn(100).fadeOut(100).fadeIn(100);
+    playSound(currentColour);
+    i++;
+    if (i >= gamePattern.length) {
+      clearInterval(interval);
+    }
+  }, 600);
+}
+
 function checkAnswer(currentLevel) {
   if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
     // Si el usuario acertó toda la secuencia
@@ -51,7 +61,6 @@ function checkAnswer(currentLevel) {
     // Si se equivocó
     playSound("wrong");
     $("body").addClass("game-over");
-
     setTimeout(function () {
       $("body").removeClass("game-over");
     }, 200);
