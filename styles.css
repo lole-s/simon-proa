@@ -3,7 +3,7 @@ body {
   background-color: #62f0b6; /* Fondo azul oscuro */
   color: white;              /* Texto en blanco */
   text-align: center;        /* Centra el texto */
-  font-family: sans-serif;   /* Fuente sin serifas */
+  font-family: 'Press Start 2P', cursive, sans-serif; /* Fuente retro para juegos */
   margin: 0;
   padding: 0;
 }
