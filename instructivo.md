@@ -1,4 +1,4 @@
-# 🧑‍💻 Instructivo para estudiantes – Contribuir al proyecto desde VS Code (como colaboradores directos)
+#  Instructivo para estudiantes – Contribuir al proyecto desde VS Code (como colaboradores directos)
 
 Este instructivo te guiará para trabajar en el repositorio `simon-proa` directamente desde Visual Studio Code.
 
