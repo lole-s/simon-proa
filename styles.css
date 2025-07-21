@@ -1,6 +1,6 @@
 /* Estilos generales para el cuerpo de la página */
 body {
-  background-color: #011F3F; /* Fondo azul oscuro */
+  background-color: #62f0b6; /* Fondo azul oscuro */
   color: white;              /* Texto en blanco */
   text-align: center;        /* Centra el texto */
   font-family: sans-serif;   /* Fuente sin serifas */
@@ -33,10 +33,10 @@ h1 {
 }
 
 /* Colores específicos para cada botón */
-.green { background-color: green; }
-.red { background-color: red; }
-.yellow { background-color: yellow; }
-.blue { background-color: blue; }
+.green { background-color: lightblue; }
+.red { background-color: brown; }
+.yellow { background-color: purple; }
+.blue { background-color: black; }
 
 /* Efecto cuando el botón es presionado */
 .pressed {
