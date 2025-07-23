@@ -1,7 +1,7 @@
 /* Estilos generales para el cuerpo de la página */
 body {
   background-color: #62f0b6; /* Fondo azul oscuro */
-  color: white;              /* Texto en blanco */
+  color: rgb(112, 108, 108);              /* Texto en blanco */
   text-align: center;        /* Centra el texto */
   font-family: 'Press Start 2P', cursive, sans-serif; /* Fuente retro para juegos */
   margin: 0;
