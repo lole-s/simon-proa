@@ -18,10 +18,11 @@ var level = 0;
 // Iniciar el juego al presionar cualquier tecla
 $(document).keydown(function () {
   if (!started) {
-    $("#level-title").text("Level " + level); //nivel actual
-    document.title = "Level " + level; //nivel en el título
-    nextSequence(); // generar el primer color
-    started = true; // cambiar el estado a iniciado
+    $("#level-title").text("Level " + level);
+    document.title = "Level " + level;
+    nextSequence(); // Primer color
+    nextSequence(); // Segundo color
+    started = true;
   }
 });
 
